@@ -43,7 +43,7 @@ export default function App() {
               height='60'
               className='logo align-top'
             />{' '} */}
-            <h6 className='d-inline navtitle text-white'>Elite Equipment</h6>
+            <h6 className='d-inline navtitle text-white'>Elite Exercise</h6>
           </Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle

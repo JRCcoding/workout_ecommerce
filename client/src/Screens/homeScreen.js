@@ -8,7 +8,7 @@ import Products from '../Components/Products'
 const HomeScreen = () => {
   return (
     <div className='background_pattern'>
-      <Meta title='Elite Equipment' />
+      <Meta title='Elite Exercise Equipment' />
       <h1 className='my-auto text-center'>All Products</h1>
       {/* <Fade up>
         <ProductCarousel />
