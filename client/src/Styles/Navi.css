@@ -1,5 +1,5 @@
 .logo {
-  scale: 1.8;
+  filter: invert(100%);
 }
 
 .clickable:hover {
@@ -12,6 +12,7 @@
   margin: 4%;
   text-shadow: 3px 3px 5px  rgba(10, 0, 10, .7);
   transition: all 1s;
+  color: black;
 }
 .navtitle:hover {
   cursor: pointer;
@@ -61,6 +62,7 @@
 .navtitle {
     font-size: 1.46rem;
     margin: 7% -10% 7% 0%;
+  color: white;
 }
 .toggler {
   margin: 0;

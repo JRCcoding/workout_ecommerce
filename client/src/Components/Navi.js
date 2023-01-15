@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { LinkContainer } from 'react-router-bootstrap'
 import '../Styles/Navi.css'
+import Logo from '../Images/logo.png'
 
 import {
   MDBDropdown,
@@ -36,14 +37,14 @@ export default function App() {
       <Container>
         <LinkContainer to='/'>
           <Navbar.Brand>
-            {/* <img
+            <img
               alt=''
               src={Logo}
-              width='60'
-              height='60'
+              width='80'
+              height='80'
               className='logo align-top'
-            />{' '} */}
-            <h6 className='d-inline navtitle text-white'>Elite Exercise</h6>
+            />{' '}
+            <h6 className='navtitle'>Equipment</h6>
           </Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle
