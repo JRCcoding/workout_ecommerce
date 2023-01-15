@@ -4,7 +4,7 @@
   "description": "",
   "main": "./server/server.js",
   "type": "module",
-  "homepage": "http://localhost",
+  "homepage": "https://elite-equipment.onrender.com/",
   "scripts": {
     "start": "node server/server.js",
     "server": "nodemon server/server",
