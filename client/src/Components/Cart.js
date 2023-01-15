@@ -107,33 +107,6 @@ const Cart = ({ location, history }) => {
                 ))}
               </ListGroup>
             )}
-            <hr></hr>
-            <h1 className='cart_title'>Add-Ons:</h1>
-            <ListGroup variant='flush'>
-              <ListGroup.Item>
-                <Row>
-                  <Col md={2}>
-                    <LinkContainer to={'/product/63bc3572245fdfc40c478e9d'}>
-                      <Image
-                        src='https://raw.githubusercontent.com/JRCcoding/lnctreats/development/client/src/Images/webp/xsmall-bouquet.webp'
-                        alt='Small Bouquet'
-                        fluid
-                        rounded
-                      />
-                    </LinkContainer>
-                  </Col>
-
-                  <Col md={4}>
-                    <LinkContainer to={'/product/63bc3572245fdfc40c478e9d'}>
-                      <strong className='clickable'>
-                        Add a Small Candy Bouquet! ❤
-                      </strong>
-                    </LinkContainer>
-                  </Col>
-                  <Col md={2}>$10.00</Col>
-                </Row>
-              </ListGroup.Item>
-            </ListGroup>
           </Col>
           <Col md={4}>
             <Card>
