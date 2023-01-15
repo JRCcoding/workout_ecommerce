@@ -16,7 +16,7 @@ const HomeScreen = () => {
       </Fade>
       <SellingPoints className='selling_points' />
       <Fade up>
-        <Contact />
+        <Contact className='mt-20' />
       </Fade>
     </div>
   )

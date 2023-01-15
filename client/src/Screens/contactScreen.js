@@ -15,7 +15,7 @@ import Meta from '../Components/Meta'
 const contactScreen = () => {
   return (
     <div className='background_pattern'>
-      <Meta title='Contact LNC Treats' />
+      <Meta title='Contact Elite Equipment' />
       <Fade up>
         <Contact />
         <div className='map_box'>{/* <GoogleMaps /> */}</div>

@@ -5,6 +5,7 @@ import FormContainer from '../Components/FormContainer'
 import { register } from '../Actions/userActions'
 import { LinkContainer } from 'react-router-bootstrap'
 import { withRouter } from 'react-router-dom'
+import Meta from '../Components/Meta'
 
 const RegisterScreen = ({ location, history }) => {
   const [name, setName] = useState('')
@@ -38,6 +39,7 @@ const RegisterScreen = ({ location, history }) => {
 
   return (
     <div className='background_pattern'>
+      <Meta title='Elite Registration' />
       <Container>
         <Card>
           <FormContainer>
