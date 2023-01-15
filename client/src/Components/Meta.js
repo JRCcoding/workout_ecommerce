@@ -12,10 +12,10 @@ const Meta = ({ title, description, keywords }) => {
 }
 
 Meta.defaultProps = {
-  title: "Lauryn's Next-door Cottage",
-  description: 'Midland Texas baker, creator, chef',
+  title: "Elite Equipmemt",
+  description: "Workout equipment and more!",
   keywords:
-    'Lauryn, Lauren, Claxton, Gagliardi, Cakes, Cookies, Cupcakes, Catering, Chef, Cooking, Baking, Baked Goods',
+    'workout, equipment, deals, shipping',
 }
 
 export default Meta
