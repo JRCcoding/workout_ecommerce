@@ -39,9 +39,9 @@ const Products = () => {
                           <LinkContainer to={`/product/${product._id}`}>
                             <Image
                               position='top'
-                              alt='Lauryn Claxton LNC Treats'
+                              alt={product.title}
                               src={product.img}
-                              className='clickable'
+                              className='clickable product_image'
                             />
                           </LinkContainer>
 
@@ -49,7 +49,7 @@ const Products = () => {
                             <Card.Header>
                               <LinkContainer to={`/product/${product._id}`}>
                                 <Card.Title className='clickable inline'>
-                                  <h3 className='product_title font-Pacifico scale-125 my-auto'>
+                                  <h3 className='product_title scale-125 my-auto'>
                                     {product.title}
                                   </h3>
                                 </Card.Title>

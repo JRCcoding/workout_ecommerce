@@ -30,6 +30,9 @@
 .product_card {
     min-height: 525px;
 }
+.product_image {
+    height: 300px;
+}
 .product_title {
     text-align: center;
 }
