@@ -101,21 +101,21 @@ export default function App() {
                 <i className='fas fa-shopping-cart'></i> Cart
               </MDBNavbarItem>
             </LinkContainer>
-            <LinkContainer to='/products'>
+            {/* <LinkContainer to='/products'>
               <MDBNavbarItem link className='navlink clickable'>
                 Products
               </MDBNavbarItem>
-            </LinkContainer>
-            <LinkContainer to='/about'>
+            </LinkContainer> */}
+            {/* <LinkContainer to='/about'>
               <MDBNavbarItem link className='navlink'>
                 About
               </MDBNavbarItem>
-            </LinkContainer>
-            <LinkContainer to='/contact'>
+            </LinkContainer> */}
+            {/* <LinkContainer to='/contact'>
               <MDBNavbarItem link className='navlink'>
                 Contact
               </MDBNavbarItem>
-            </LinkContainer>
+            </LinkContainer> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

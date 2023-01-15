@@ -14,7 +14,15 @@ const productSchema = mongoose.Schema(
       type: String,
       required: false,
     },
+    price: {
+      type: String,
+      required: true,
+    },
     description: {
+      type: String,
+      required: true,
+    },
+    countInStock: {
       type: String,
       required: true,
     },

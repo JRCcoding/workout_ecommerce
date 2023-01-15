@@ -139,7 +139,7 @@ const Product = ({ history }) => {
                       <ListGroup.Item>
                         <button
                           onClick={addToCartHandler}
-                          className='addcart_button'
+                          className='btn btn-dark btn-block'
                           type='button'
                         >
                           ADD TO CART
