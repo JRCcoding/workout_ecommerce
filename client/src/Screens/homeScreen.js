@@ -9,14 +9,14 @@ import Meta from '../Components/Meta'
 const HomeScreen = () => {
   return (
     <div className='background_pattern'>
-      <Meta title="Lauryn's Next-door Cottage" />
+      <Meta title='Elite Equipment' />
       <Fade up>
         {/* <ProductCarousel /> */}
         <ValentineCarousel />
       </Fade>
       <SellingPoints className='selling_points' />
       <Fade up>
-        <Contact className='mt-20'/>
+        <Contact className='mt-20' />
       </Fade>
     </div>
   )
