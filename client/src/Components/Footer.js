@@ -5,7 +5,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 
 const Footer = () => {
   return (
-    <div className='footer_container bg-Navbar'>
+    <div className='footer_container bg-black'>
       <Container>
         <Row className='footer_row'>
           <Col className='footer_col_1'>

@@ -1,4 +1,3 @@
-import Logo from '../Images/webp/logo_transparent.webp'
 import '../index.css'
 import '../App.css'
 import React, { useState } from 'react'
@@ -30,23 +29,21 @@ export default function App() {
 
   return (
     <Navbar
-      className='bg-Navbar text-white font-Lato'
+      className='text-white bg-black font-Lato'
       expand='xl'
       collapseOnSelect
     >
       <Container>
         <LinkContainer to='/'>
           <Navbar.Brand>
-            <img
+            {/* <img
               alt=''
               src={Logo}
               width='60'
               height='60'
               className='logo align-top'
-            />{' '}
-            <h6 className='d-inline navtitle font-Pacifico text-Navtitle'>
-              Lauryn's Next-door Cottage
-            </h6>
+            />{' '} */}
+            <h6 className='d-inline navtitle text-white'>Elite Equipment</h6>
           </Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle
@@ -56,7 +53,7 @@ export default function App() {
           onClick={() => setShowBasic(!showBasic)}
           className='toggler ms-5'
         >
-          <MDBIcon className='burger' fas icon='birthday-cake' />{' '}
+          <MDBIcon className='burger' fas icon='bars' />{' '}
         </Navbar.Toggle>
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ml-auto'>

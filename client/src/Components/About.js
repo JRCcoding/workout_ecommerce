@@ -3,7 +3,6 @@ import { Row, Col, Container } from 'react-bootstrap'
 import { MDBIcon } from 'mdb-react-ui-kit'
 import { Card, Image } from 'react-bootstrap'
 import '../Styles/About.css'
-import Profile from '../Images/webp/maybeprofile.webp'
 
 const About = () => {
   return (
@@ -11,13 +10,13 @@ const About = () => {
       <Container>
         <Card>
           <Row xs={1} md={1} lg={2} className='text-AccentText'>
-            <Col>
+            {/* <Col>
               <Image
                 position='top'
                 alt='Lauryn Claxton LNC Treats'
                 src={Profile}
               />
-            </Col>
+            </Col> */}
             <Col className='about_text'>
               {' '}
               <p className='about_p'>
