@@ -7,7 +7,7 @@ import ThankYou from '../Components/ThankYou.js'
 import '../Styles/Contact.css'
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm('maykyddr')
+  const [state, handleSubmit] = useForm('xzbqzzyd')
   if (state.succeeded) {
     return <ThankYou className='thank_you_card' />
   }
@@ -65,25 +65,17 @@ const Contact = () => {
               id='message'
               name='message'
               rows='3'
-              cols='25'
+              cols='65'
               required
               className='text-box'
             ></textarea>{' '}
-            <br />
-            <br />
-            <label for='product'>Product of interest: </label>
-            <select name='product' id='product' required=''>
-              <option value='NA'>N/A</option>
-              <option value='cake'>Custom Cakes</option>
-              <option value='snackbox'>Snack Boxes</option>
-            </select>
             <div className='submit_div'>
               <button
                 type='submit'
-                className='contact_submit'
+                className='btn btn-dark'
                 disabled={state.submitting}
               >
-                Send to Lauryn
+                Send to Elite Customer Service
               </button>
             </div>
           </form>
